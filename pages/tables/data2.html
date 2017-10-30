@@ -338,7 +338,7 @@
             </span>
           </a>
           <ul class="treeview-menu">
-            <li><a href="../../index.html"><i class="fa fa-circle-o"></i> Dashboard v1</a></li>
+            <li><a href="../../index.html"><i class="fa fa-circle-o"></i>Dashboard</a></li>
             <!-- DITO PWEDE IDAGDAG UNG KASAMA NI DASHBOAD -->
           </ul>
         </li>
@@ -433,6 +433,30 @@
           <ul class="treeview-menu">
             <li><a href="simple2.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
             <li class="active"><a href="data2.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+          </ul>
+        </li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>Suppliers</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="simple3.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+            <li><a href="data3.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
+          </ul>
+        </li>
+        <li class="treeview active">
+          <a href="#">
+            <i class="fa fa-table"></i> <span>Departments</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu">
+            <li class="active"><a href="simple4.html"><i class="fa fa-circle-o"></i> Simple tables</a></li>
+            <li><a href="data4.html"><i class="fa fa-circle-o"></i> Data tables</a></li>
           </ul>
         </li>
         <li class="treeview">
@@ -586,7 +610,29 @@
                                   </div>
                                   <!-- /.modal-dialog -->
                                 </div></th>
-                        <th><button type="submit" class="btn btn-block btn-danger">Delete</button></th>
+                        <th><button type="button" class="btn btn-danger" data-toggle="modal" data-target="#modal-danger">
+                            Delete</button>
+                            <div class="modal modal-danger fade" id="modal-danger">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                    <h4 class="modal-title">Delete</h4>
+                                  </div>
+                                  <div class="modal-body">
+                                    <h4>Are you sure to delete the items?</h4>
+                                  </div>
+                                  <div class="modal-footer">
+                                    <button type="button" class="btn btn-outline pull-left" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-outline">Delete</button>
+                                  </div>
+                                </div>
+                                <!-- /.modal-content -->
+                              </div>
+                              <!-- /.modal-dialog -->
+                            </div>
+                            <!-- /.modal --></th>   
                         <th><button type="button" class="btn btn-success" data-toggle="modal" data-target="#modal-default">
                                         Issue To
                                       </button>

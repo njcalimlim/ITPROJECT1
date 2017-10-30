@@ -591,11 +591,26 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                              <td>Ball Pen</td>
-                                              <td>Pilot</td>
-                                              <td>100</td>
-                                              <td>pieces</td>
-                                              <td>Php 10.00</td>
+                                              <td><div class="form-group">
+                                                  <label for="exampleInputEmail1"></label>
+                                                  <input type="email" class="form-control">
+                                                </div></td>
+                                              <td><div class="form-group">
+                                                  <label for="exampleInputEmail1"></label>
+                                                  <input type="email" class="form-control">
+                                                </div></td>
+                                              <td><div class="form-group">
+                                                  <label for="exampleInputEmail1"></label>
+                                                  <input type="email" class="form-control">
+                                                </div></td>
+                                              <td><div class="form-group">
+                                                  <label for="exampleInputEmail1"></label>
+                                                  <input type="email" class="form-control">
+                                                </div></td>
+                                              <td><div class="form-group">
+                                                  <label for="exampleInputEmail1"></label>
+                                                  <input type="email" class="form-control">
+                                                </div></td>
                                             </tr>
                                             </tbody>
                                           </table>
@@ -675,10 +690,10 @@
                                   <!-- /.modal-dialog -->
                                 </div>
                                 <!-- /.modal --></th>
-                        <th><button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-danger">
+                        <th><button type="button" class="btn btn-default" data-toggle="modal" data-target="#modal-warning">
                                         Reorder Supplies
                                       </button>
-                                <div class="modal fade" id="modal-danger">
+                                <div class="modal fade" id="modal-warning">
                                   <div class="modal-dialog">
                                     <div class="modal-content">
                                       <div class="modal-header">
@@ -687,7 +702,39 @@
                                         <h3 class="modal-title">Reorder Supplies</h3>
                                       </div>
                                       <div class="modal-body">
-                                        <p>One fine body&hellip;</p>
+                                        <div class="btn-group">
+                                              <button type="button" class="btn btn-default">Quantity</button>
+                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                              </button>
+                                              <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">1</a></li>
+                                                <li><a href="#">2</a></li>
+                                                <li><a href="#">3</a></li>
+                                                <li><a href="#">4</a></li>
+                                                <li><a href="#">5</a></li>
+                                                <!-- <li class="divider">5</li> -->
+                                                <li><a href="#">6</a></li>
+                                              </ul> 
+                                            </div>
+                                          
+                                          <div class="btn-group">
+                                              <button type="button" class="btn btn-default">Unit of Quantity</button>
+                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                              </button>
+                                              <ul class="dropdown-menu" role="menu">
+                                                <li><a href="#">pieces</a></li>
+                                                <li><a href="#">bottles</a></li>
+                                                <li><a href="#">packs</a></li>
+                                                <li><a href="#">matts</a></li>
+                                                <li><a href="#">box/es</a></li>
+                                                <!-- <li class="divider">5</li> -->
+                                                <li><a href="#"></a></li>
+                                              </ul> 
+                                            </div> 
                                       </div>
                                       <div class="modal-footer">
                                         <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Close</button>

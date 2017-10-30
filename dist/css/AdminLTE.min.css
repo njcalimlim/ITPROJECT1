@@ -3901,6 +3901,7 @@ table.text-center th {
 
 .login-page,
 .register-page {
+    background-image: url("dist/img/login.jpg");
     background: #d2d6de
 }
 

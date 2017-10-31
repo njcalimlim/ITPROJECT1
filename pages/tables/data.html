@@ -578,7 +578,22 @@
           <div class="box">
             <div class="box-header">
               <!-- <h3 class="box-title">Data Table With Full Features</h3> -->
-                  <table style="float:right;">
+                <table style="float: left;">
+                    <tr>
+                        <th> <div class="btn-group">
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Department
+                          <span class="caret"></span>
+                        </button>
+                        <ul class="dropdown-menu">
+                          <li><a href="#">Cardiac</a></li>
+                          <li><a href="#">Endoscopy</a></li>
+                          <li><a href="#">Imaging</a></li>
+                          <li><a href="#">Laboratory</a></li>
+                        </ul>
+                      </div></th>
+                    </tr>
+                </table>  
+                <table style="float:right;">
                     <tr>
                         
                         <th><button type="submit" class="btn btn-primary btn-block btn-info">Edit</button></th>
@@ -739,30 +754,11 @@
                                             </div>
                                             <!-- /btn-group -->
                                             <input type="text" class="form-control">
-                                          </div>
-                                          
-                                          <div class="input-group margin">
+                                
+
                                             <div class="input-group-btn">
-                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Quantity
+                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Unit of Quantity
                                                 <span class="fa fa-caret-down"></span></button>
-                                              <ul class="dropdown-menu">
-                                                <li><a href="#">1</a></li>
-                                                <li><a href="#">2</a></li>
-                                                <li><a href="#">3</a></li>
-                                                <!-- <li class="divider"></li> -->
-                                                <li><a href="#">4</a></li>
-                                              </ul>
-                                            </div>
-                                            <!-- /btn-group -->
-                                            <input type="text" class="form-control">
-                                          </div>
-                                          
-                                          <div class="btn-group">
-                                              <button type="button" class="btn btn-default">Unit of Quantity</button>
-                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                                                <span class="caret"></span>
-                                                <span class="sr-only">Toggle Dropdown</span>
-                                              </button>
                                               <ul class="dropdown-menu" role="menu">
                                                 <li><a href="#">pieces</a></li>
                                                 <li><a href="#">bottles</a></li>
@@ -772,7 +768,10 @@
                                                 <!-- <li class="divider">5</li> -->
                                                 <li><a href="#"></a></li>
                                               </ul> 
-                                            </div> 
+                                            </div>
+                                            <!-- /btn-group -->
+                                            <input type="text" class="form-control">
+                                          </div>
                                           
                                       </div>
                                       <div class="modal-footer">

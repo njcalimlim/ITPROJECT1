@@ -795,7 +795,8 @@
                   <th>Unit of Quantity</th>
                   <th>Unit Price</th>
                   <th>Total Amount</th>
-                  <th>Status</th>
+                  <th>Delivery Status</th>
+                  <th>Remarks</th>
                   <th></th>
                 </tr>
                 </thead>
@@ -819,6 +820,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -842,6 +857,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -865,6 +894,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -888,6 +931,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -911,6 +968,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -934,6 +1005,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -957,6 +1042,20 @@
                           <li><a href="#">Pending</a></li>
                         </ul>
                       </div></td>
+                  <td><div class="form-group">
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked>
+                      Good Condition
+                    </label>
+                  </div>
+                  <div class="radio">
+                    <label>
+                      <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+                      Damaged
+                    </label>
+                  </div>
+                </div></td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
@@ -1094,12 +1193,12 @@
               </table>
           </div>
         <section class="content">
-        <h3>Total Expenses per Deparment</h3>
+        <h3>Total Expenses per Department</h3>
         
           <!-- BAR CHART -->
           <div class="box box-primary">
             <div class="box-header with-border">
-              <h3 class="box-title">Clinical Laboratory Department</h3>
+              <h3 class="box-title"></h3>
 
               <div class="box-tools pull-right">
                 <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
@@ -1261,29 +1360,30 @@
     var barChart       = new Chart(barChartCanvas)
 
     var barChartData = {
-      labels  : ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+      labels  : ['Cardiac, Baguio', 'Endoscopy, Baguio', 'Imaging, Baguio', 'Laboratory, Baguio', 'Management, Baguio', 'Imaging, La Trinidad', 'Laboratory, La Trinidad'],
       datasets: [
         {
-          label               : 'Electronics',
-          fillColor           : 'rgba(210, 214, 222, 1)',
-          strokeColor         : 'rgba(210, 214, 222, 1)',
-          pointColor          : 'rgba(210, 214, 222, 1)',
+          label               : 'Medical Supplies',
+          fillColor           : 'rgb(242, 65, 65)',
+          strokeColor         : 'rgb(242, 65, 65)',
+          pointColor          : 'rgb(242, 65, 65)',
           pointStrokeColor    : '#c1c7d1',
           pointHighlightFill  : '#fff',
           pointHighlightStroke: 'rgba(220,220,220,1)',
-          data                : [65, 59, 80, 81, 56, 55, 40, 80, 15, 38, 99, 45]
+          data                : [65, 59, 80, 81, 10, 46,89]
         },
         {
-          label               : 'Digital Goods',
+          label               : 'Office Supplies',
           fillColor           : 'rgba(60,141,188,0.9)',
           strokeColor         : 'rgba(60,141,188,0.8)',
           pointColor          : '#3b8bba',
           pointStrokeColor    : 'rgba(60,141,188,1)',
           pointHighlightFill  : '#fff',
           pointHighlightStroke: 'rgba(60,141,188,1)',
-          data                : [28, 48, 40, 19, 86, 27, 90, 55, 87, 78, 65, 20]
+          data                : [28, 48, 40, 19, 15,34,67]
         }
       ]
+      
     }
 
     var barChartOptions = {
@@ -1340,37 +1440,37 @@
         value    : 700,
         color    : '#f56954',
         highlight: '#f56954',
-        label    : 'Chrome'
+        label    : 'Face Mask'
       },
       {
         value    : 500,
         color    : '#00a65a',
         highlight: '#00a65a',
-        label    : 'IE'
+        label    : 'Hand Gloves'
       },
       {
         value    : 400,
         color    : '#f39c12',
         highlight: '#f39c12',
-        label    : 'FireFox'
+        label    : '5CC Syringe'
       },
       {
         value    : 600,
         color    : '#00c0ef',
         highlight: '#00c0ef',
-        label    : 'Safari'
+        label    : '3CC Syringe'
       },
       {
         value    : 300,
         color    : '#3c8dbc',
         highlight: '#3c8dbc',
-        label    : 'Opera'
+        label    : 'Red Tap Tubes'
       },
       {
         value    : 100,
         color    : '#d2d6de',
         highlight: '#d2d6de',
-        label    : 'Navigator'
+        label    : 'Violet Tap Tubes'
       }
     ]
     var pieOptions     = {
@@ -1412,37 +1512,37 @@
         value    : 700,
         color    : '#f56954',
         highlight: '#f56954',
-        label    : 'Chrome'
+        label    : 'Ballpen'
       },
       {
         value    : 500,
         color    : '#00a65a',
         highlight: '#00a65a',
-        label    : 'IE'
+        label    : 'Masking Tape'
       },
       {
         value    : 400,
         color    : '#f39c12',
         highlight: '#f39c12',
-        label    : 'FireFox'
+        label    : 'Logbook'
       },
       {
         value    : 600,
         color    : '#00c0ef',
         highlight: '#00c0ef',
-        label    : 'Safari'
+        label    : 'Short Bond Paper'
       },
       {
         value    : 300,
         color    : '#3c8dbc',
         highlight: '#3c8dbc',
-        label    : 'Opera'
+        label    : 'Marker'
       },
       {
         value    : 100,
         color    : '#d2d6de',
         highlight: '#d2d6de',
-        label    : 'Navigator'
+        label    : 'Carbon Paper'
       }
     ]
     var pieOptions     = {

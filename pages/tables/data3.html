@@ -537,6 +537,7 @@
                 <th>Supplying Department</th>
                 <th>Status</th>
 				<th>Remarks</th>
+                <th></th>
                 </tr>
                 </thead>
                 <tbody>
@@ -546,14 +547,16 @@
                   <td>Baguio, City</td>
                   <td>Medical Supplies</td>
                   <td>Cardiac Department</td>
-				   <td>
+                  <td>
                    <center><!-- Rounded switch -->
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-                    <td></td>
                 </tr>
                 <tr>
                   <td>Laser Marketing</td>
@@ -566,9 +569,11 @@
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>Pandayan Bookshop</td>
@@ -576,14 +581,16 @@
                   <td>Baguio, City</td>
                   <td>Office Supplies</td>
                   <td>Imaging Department</td>
-				   <td>
+				  <td>
                    <center><!-- Rounded switch -->
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>The Generics Pharmacy</td>
@@ -596,9 +603,11 @@
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>JCP Enterprise</td>
@@ -611,9 +620,11 @@
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>Curamed Pharmacy</td>
@@ -621,14 +632,16 @@
                   <td>Baguio, City</td>
                   <td>Medical Supplies</td>
                   <td>Imaging Department</td>
-				   <td>
+				  <td>
                    <center><!-- Rounded switch -->
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>St. Joseph Pharmacy</td>
@@ -636,14 +649,16 @@
                   <td>Baguio, City</td>
                   <td>Medical Supplies</td>
                   <td>Clinical Laboratory Department</td>
-				   <td>
+				  <td>
                    <center><!-- Rounded switch -->
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td> </td>
                 </tr>
                 <tr>
                   <td>Generika</td>
@@ -651,14 +666,16 @@
                   <td>Baguio, City</td>
                   <td>Medical Supplies</td>
                   <td>Endoscopy Department</td>
-				   <td>
+				  <td>
                    <center><!-- Rounded switch -->
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				  <td></td>
                 </tr>
                 <tr>
                   <td>UB Square</td>
@@ -671,9 +688,11 @@
                     <label class="switch">
                       <input type="checkbox">
                       <span class="slider round"></span>
-                    </label></center>
+                    </label></center></td>
+                  <td>Hindi tumutupad sa usapan</td>
+                  <td>
+                      <center><input type="checkbox"></center>
                   </td>
-				<td></td>
                 </tr>
               </tbody>
               <tfoot>
@@ -685,6 +704,7 @@
                 <th>Supplying Department</th>
                 <th>Status</th>
 				<th>Remarks</th>
+                <th></th>
                 </tr>
               </tfoot>
                            </table>
@@ -723,6 +743,66 @@
 </div>
 <!-- ./wrapper -->
 
+<style>
+/* The switch - the box around the slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 24px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 24px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}    
+</style>
 <!-- jQuery 3 -->
 <script src="../../bower_components/jquery/dist/jquery.min.js"></script>
 <!-- Bootstrap 3.3.7 -->

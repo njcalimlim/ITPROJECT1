@@ -85,40 +85,39 @@
               <span class="label label-warning">10</span>
             </a>
             <ul class="dropdown-menu">
-              <li class="header">You have 10 notifications</li>
+              <li class="header"><i class="fa fa-warning text-yellow"></i> You have 10 notifications</li>
               <li>
                 <!-- inner menu: contains the actual data -->
                 <ul class="menu">
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-aqua"></i> 5 new members joined today
+                        Assistant 1 logged in the system.
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-warning text-yellow"></i> Very long description here that may not fit into the
-                      page and may cause design problems
+                       Assistant 1 edited the the unit price of the ink supply in the office supplies.
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-users text-red"></i> 5 new members joined
+                       Assistant 1 logged out.
                     </a>
                   </li>
 
                   <li>
                     <a href="#">
-                      <i class="fa fa-shopping-cart text-green"></i> 25 sales made
+                       You logged in.
                     </a>
                   </li>
                   <li>
                     <a href="#">
-                      <i class="fa fa-user text-red"></i> You changed your username
+                      You issued 31 pieces of tissue from the medical supplies to Cardiac Department.
                     </a>
                   </li>
                 </ul>
               </li>
-              <li class="footer"><a href="#">View all</a></li>
+              <li class="footer"><a href="../invoice.html">View all Logs</a></li>
             </ul>
           </li>
           <!-- Tasks: style can be found in dropdown.less -->
@@ -135,13 +134,13 @@
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Design some buttons
+                        Tissue
                         <small class="pull-right">20%</small>
                       </h3>
                       <div class="progress xs">
                         <div class="progress-bar progress-bar-aqua" style="width: 20%" role="progressbar"
                              aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">20% Complete</span>
+                          <span class="sr-only">20% </span>
                         </div>
                       </div>
                     </a>
@@ -150,13 +149,13 @@
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Create a nice theme
+                        5CC Syringe
                         <small class="pull-right">40%</small>
                       </h3>
                       <div class="progress xs">
                         <div class="progress-bar progress-bar-green" style="width: 40%" role="progressbar"
                              aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">40% Complete</span>
+                          <span class="sr-only">40% </span>
                         </div>
                       </div>
                     </a>
@@ -165,13 +164,13 @@
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Some task I need to do
+                        Joy Liquid Soap
                         <small class="pull-right">60%</small>
                       </h3>
                       <div class="progress xs">
                         <div class="progress-bar progress-bar-red" style="width: 60%" role="progressbar"
                              aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">60% Complete</span>
+                          <span class="sr-only">60%</span>
                         </div>
                       </div>
                     </a>
@@ -180,13 +179,13 @@
                   <li><!-- Task item -->
                     <a href="#">
                       <h3>
-                        Make beautiful transitions
+                        Red Tap Tubes
                         <small class="pull-right">80%</small>
                       </h3>
                       <div class="progress xs">
                         <div class="progress-bar progress-bar-yellow" style="width: 80%" role="progressbar"
                              aria-valuenow="20" aria-valuemin="0" aria-valuemax="100">
-                          <span class="sr-only">80% Complete</span>
+                          <span class="sr-only">80%</span>
                         </div>
                       </div>
                     </a>
@@ -195,7 +194,7 @@
                 </ul>
               </li>
               <li class="footer">
-                <a href="#">View all tasks</a>
+                <a href="../../index.html">View all charts</a>
               </li>
             </ul>
           </li>
@@ -431,7 +430,7 @@
     <!-- Content Header (Page header) -->
     <section class="content-header">
       <h1>
-          <b>Distributed Supplies</b>
+          <b>Issued Supplies</b>
         <!-- <small>Supplies</small> -->
       </h1>
       <ol class="breadcrumb">
@@ -452,17 +451,13 @@
                 <table style="float: left;">
                     <tr>
                         <th> <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Department
+                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Branch
                           <span class="caret"></span>
                         </button>
                         <ul class="dropdown-menu">
-                          <li><a href="#">Cardiac, Baguio City</a></li>
-                          <li><a href="#">Endoscopy, Baguio City</a></li>
-                          <li><a href="#">Imaging, Baguio City</a></li>
-                          <li><a href="#">Clinical Laboratory, Baguio City</a></li>
-                          <li><a href="#">Management, Baguio City</a></li>
-                          <li><a href="#">Imaging, La Trinidad</a></li>
-                          <li><a href="#">Clinical Laboratory, La Trinidad</a></li>
+                          <li><a href="#">Baguio City</a></li>
+                          <li><a href="#">La Trinidad</a></li>
+                        <li><a href="#">SLU Hospital</a></li>
                         </ul>
                       </div></th>
                         <th> <div class="btn-group">
@@ -535,15 +530,26 @@
                                                 <span class="caret"></span>
                                                 <span class="sr-only">Toggle Dropdown</span>
                                               </button>
-                                                <span><input type="email" class="form-control"></span>
                                               <ul class="dropdown-menu">
-                                              <li><a href="#">Cardiac, Baguio City</a></li>
-                                              <li><a href="#">Endoscopy, Baguio City</a></li>
-                                              <li><a href="#">Imaging, Baguio City</a></li>
-                                              <li><a href="#">Clinical Laboratory, Baguio City</a></li>
-                                              <li><a href="#">Management, Baguio City</a></li>
-                                              <li><a href="#">Imaging, La Trinidad</a></li>
-                                              <li><a href="#">Clinical Laboratory, La Trinidad</a></li>
+                                              <li><a href="#">Cardiac</a></li>
+                                              <li><a href="#">Endoscopy</a></li>
+                                              <li><a href="#">Imaging</a></li>
+                                              <li><a href="#">Clinical Laboratory</a></li>
+                                              <li><a href="#">Management</a></li>
+                                              <li><a href="#">Endoscopy Unit, SLU Hospital</a></li>
+                                                  </ul>
+                                          </div>
+                                          <div class="btn-group">
+                                              <button type="button" class="btn btn-default">Branch</button>
+                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                              </button>
+                                              <ul class="dropdown-menu">
+                                             <li><a href="#">Baguio City</a></li>
+                                              <li><a href="#">La Trinidad</a></li>
+                                                 <li><a href="#">SLU Hospital</a></li>
+                                         
                                                   </ul>
                                           </div>
                                       </div>
@@ -581,7 +587,7 @@
                   <td>3CC Syringe</td>
                   <td>10</td>
                   <td>pieces</td>
-                  <td>Php 500.00</td>
+                  <td>&#8369; 500.00</td>
 				  <td>Cardiac Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -592,7 +598,7 @@
                   <td>5CC Syringe </td>
                   <td>30</td>
                   <td>pieces</td>
-                  <td>Php 900.00</td>
+                  <td>&#8369; 900.00</td>
 				  <td>Imaging Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -602,7 +608,7 @@
                   <td>Masking Tape</td>
                   <td>1</td>
                   <td>box</td>
-                  <td>Php 10.00</td>
+                  <td>&#8369; 10.00</td>
 				  <td>Endoscopy Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -612,7 +618,7 @@
                   <td>Ballpen</td>
                   <td>2</td>
                   <td>boxes</td>
-                  <td>Php 200.00</td>
+                  <td>&#8369; 200.00</td>
 				  <td>Clinical Laboratory Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -622,7 +628,7 @@
                   <td>Bond Paper</td>
                   <td>3</td>
                   <td>rims</td>
-                  <td>Php 900.00</td>
+                  <td>&#8369; 900.00</td>
 				  <td>Endoscopy Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -632,7 +638,7 @@
                   <td>CD</td>
                   <td>120</td>
                   <td>pieces</td>
-                  <td>Php 4,800.00</td>
+                  <td>&#8369; 4,800.00</td>
                   <td>Imaging Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -642,7 +648,7 @@
                   <td>Hand Gloves</td>
                   <td>10</td>
                   <td>pieces</td>
-                  <td>Php 250.00</td>
+                  <td>&#8369; 250.00</td>
 				  <td>Cardiac Department </td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -652,7 +658,7 @@
                   <td>Face Mask</td>
                   <td>15</td>
                   <td>boxes</td>
-                  <td>Php 20.00</td>
+                  <td>&#8369; 20.00</td>
 				  <td>Clinical Laboratory Department</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -672,7 +678,7 @@
                   <td>Violet Tap Tubes</td>
                   <td>100</td>
                   <td>pieces</td>
-                  <td>Php 3,000.00</td>
+                  <td>&#8369; 3,000.00</td>
 				  <td>Cardiac Deparment</td>
                   <td>
                     <center><input type="checkbox"></center>

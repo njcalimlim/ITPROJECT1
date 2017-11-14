@@ -430,20 +430,7 @@
               <!-- <h3 class="box-title">Office Supplies</h3> -->
                 <table style="float: left;">
                     <tr>
-                        <th> <div class="btn-group">
-                        <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Department
-                          <span class="caret"></span>
-                        </button>
-                        <ul class="dropdown-menu">
-                          <li><a href="#">Cardiac, Baguio City</a></li>
-                          <li><a href="#">Endoscopy, Baguio City</a></li>
-                          <li><a href="#">Imaging, Baguio City</a></li>
-                          <li><a href="#">Laboratory, Baguio City</a></li>
-                          <li><a href="#">Management, Baguio City</a></li>
-                          <li><a href="#">Imaging, La Trinidad</a></li>
-                          <li><a href="#">Laboratory, La Trinidad</a></li>
-                        </ul>
-                      </div></th>
+               
                     </tr>
                 </table> 
                 <table style="float:right;">
@@ -465,7 +452,7 @@
                                         <div class="box-body">
                                             <!-- Date and Time -->
                                                  <div class="form-group">
-                                                    <label>Date Recieved</label>
+                                                    <label>Date Received</label>
 
                                                     <div class="input-group">
                                                       <div class="input-group-addon">
@@ -496,6 +483,18 @@
                                                   <label for="exampleInputEmail1">Unit Price</label>
                                                   <input type="email" class="form-control">
                                                 </div>
+                                         <!-- Date and Time -->
+                                                 <div class="form-group">
+                                                    <label>Expiration Date</label>
+
+                                                    <div class="input-group">
+                                                      <div class="input-group-addon">
+                                                        <i class="fa fa-clock-o"></i>
+                                                      </div>
+                                                      <input type="text" class="form-control pull-right" id="reservationtime2">
+                                                    </div>
+                                                    <!-- /.input group -->
+                                                  </div>
                                         </div>
                                       </div>
                                       <div class="modal-footer">
@@ -584,7 +583,7 @@
                                                 <span class="caret"></span>
                                                 <span class="sr-only">Toggle Dropdown</span>
                                               </button>
-                                                <span><input type="email" class="form-control"></span>
+                                      
                                               <ul class="dropdown-menu">
                                               <li><a href="#">Cardiac, Baguio City</a></li>
                                               <li><a href="#">Endoscopy, Baguio City</a></li>
@@ -593,6 +592,19 @@
                                               <li><a href="#">Management, Baguio City</a></li>
                                               <li><a href="#">Imaging, La Trinidad</a></li>
                                               <li><a href="#">Clinical Laboratory, La Trinidad</a></li>
+                                              <li><a href="#">Endoscopy Unit, SLU Hospital</a></li>
+                                                  </ul>
+                                          </div>
+                                                 <div class="btn-group">
+                                              <button type="button" class="btn btn-default">Branch</button>
+                                              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                                <span class="caret"></span>
+                                                <span class="sr-only">Toggle Dropdown</span>
+                                              </button>
+                                              <ul class="dropdown-menu">
+                                              <li><a href="#">Baguio City</a></li>
+                                              <li><a href="#">La Trinidad</a></li>
+                                                  <li><a href="#">SLU Hospital</a></li>
                                                   </ul>
                                           </div>
                                       </div>
@@ -614,112 +626,120 @@
               <table id="example1" class="table table-bordered table-striped">
                 <thead>
                 <tr>
-                  <th>Date Recieved</th>
+                  <th>Date Received</th>
                   <th>Description</th>
                   <th>Supplier</th>
-                  <th>Brandname</th>
+            
                   <th>Quantity in Stock</th>
                   <th>Unit of Quantity</th>
                   <th>Total Stock</th>
                   <th>Unit Price</th>
+                    <th>Total Amount</th>
                   <th>Reorder Level</th>
                   <th></th>
                 </tr>
                 </thead>
                 <tbody>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+             
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+               
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+               
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+                  
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+                 
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+               
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
                   </td>
                 </tr>
                 <tr>
-                  <td>October 3, 2017</td>
+                  <td>2017-10-03</td>
                   <td>INK</td>
                   <td>Pandayan Bookshop</td>
-                  <td>Canon Ink</td>
+             
                   <td>30</td>
                   <td>carts</td>
                   <td>33 carts</td>
                   <td>&#8369; 400.00</td>
+                    <td>&#8369; 13200.00</td>
                   <td>3 carts</td>
                   <td>
                     <center><input type="checkbox"></center>
@@ -728,14 +748,15 @@
                 </tbody>
                 <tfoot>
                 <tr>
-                  <th>Date Recieved</th>
+                  <th>Date Received</th>
                   <th>Description</th>
                   <th>Supplier</th>
-                  <th>Brandname</th>
+          
                   <th>Quantity in Stock</th>
                   <th>Unit of Quantity</th>
                   <th>Total Stock</th>
                   <th>Unit Price</th>
+                    <th>Total Amount</th>
                   <th>Reorder Level</th>
                   <th></th>
                 </tr>

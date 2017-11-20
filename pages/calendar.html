@@ -55,7 +55,15 @@
 
       <div class="navbar-custom-menu">
         <ul class="nav navbar-nav">
-          
+          <li class="user user-menu">
+                <a class="dropdown-toggle">
+                    <span class="hidden-xs" id="demo"></span>
+                    <script>
+                        var d = new Date();
+                        document.getElementById("demo").innerHTML = d.toUTCString();
+                    </script>
+                </a>
+            </li>
           <!-- Notifications: style can be found in dropdown.less -->
           <li class="dropdown notifications-menu">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">

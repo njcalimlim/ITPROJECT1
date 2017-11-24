@@ -55,8 +55,92 @@
       </div>
     </form>
 
-    <center><a href="#">I forgot my password</a><br></center>
+    <center><a type="submit"  data-toggle="modal" data-target="#modal-info" >I forgot my password</a><br></center>
+      
+                        <div class="modal fade" id="modal-info">
+                                  <div class="modal-dialog">
+                                    <div class="modal-content">
+                                      <div class="modal-header">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                          <span aria-hidden="true">&times;</span></button>
+                                        <div class="margin">
+                                            <h3>Forgot Password</h3>
+                                          </div>
+                                      </div>
+                                        <!-- end of modal header -->
+                                      <div class="modal-body">
+                                        <div class="box-body">
+                                           
+                                            <div class="form-group">
+                                                  <label for="exampleInputEmail1">Username</label>
+                                                  <input type="email" class="form-control" placeholder="Enter Username  ">
+                                                </div>
+                                        </div>
+                                      </div>
+                                      <div class="modal-footer">
+                                        <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
+                                        <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-default">Next</button>
+                                      </div>
+                                    </div>
+                                    <!-- /.modal-content -->
+                                  </div>
+                                  <!-- /.modal-dialog -->
+                                </div>
+                                <!-- MODAL ------>
+                                          <div class="modal fade" id="modal-default">
+                                          <div class="modal-dialog">
+                                            <div class="modal-content">
+                                              <div class="modal-header">
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                  <span aria-hidden="true">&times;</span></button>
+                                                <div class="margin">
+                                                    <h3>Forgot Password</h3>
+                                                  </div>
+                                              </div>
+                                                <!-- end of modal header -->
+                                              <div class="modal-body">
+                                                <div class="box-body">
 
+                                                      <div class="form-group">
+                                                          <label for="exampleInputEmail1">Enter New Password</label>
+                                                          <input type="email" class="form-control">
+                                                        </div>
+                                                      <div class="form-group">
+                                                          <label for="exampleInputEmail1">Confirm New Password</label>
+                                                          <input type="email" class="form-control">
+                                                        </div>
+                                                      <div class="form-group">
+                                                          <label for="exampleInputEmail1">Security Question: Who is you favorite superhero?</label>
+                                                          <input type="email" class="form-control" placeholder="Answer">
+                                                        </div>
+                                                </div>
+                                              </div>
+                                              <div class="modal-footer">
+                                                <button type="button" class="btn btn-default pull-left" data-dismiss="modal">Cancel</button>
+                                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#modal-warning">Change Password</button>
+                                              </div>
+                                            </div>
+                                            <!-- /.modal-content --> 
+                                          </div>
+                                          <!-- /.modal-dialog -->
+                                        </div>
+                                <!-- MODAL -->
+                                    <div class="modal fade" id="modal-warning">
+                              <div class="modal-dialog">
+                                <div class="modal-content">
+                                  <div class="modal-header">
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                      <span aria-hidden="true">&times;</span></button>
+                                  </div>
+                                  <div class="modal-body">
+                                    <h4>New Password Saved!</h4>
+                                  </div>
+                                </div>
+                                <!-- /.modal-content -->
+                              </div>
+                              <!-- /.modal-dialog -->
+                            </div>
+                            <!-- /.modal -->
   </div>
   <!-- /.login-box-body -->
 </div>
